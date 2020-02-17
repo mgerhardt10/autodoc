@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="ComplexCpp_8cpp" kind="file" language="C++">
+    <compoundname>ComplexCpp.cpp</compoundname>
+    <includes refid="ComplexCpp_8h" local="yes">ComplexCpp.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp</label>
+        <link refid="ComplexCpp_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+      <node id="2">
+        <label>ComplexCpp.h</label>
+        <link refid="ComplexCpp_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&quot;ComplexCpp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="classComplex__Cpp_1abae915753734a694363f833b4b4f4108" kindref="member">Complex_Cpp::Complex_Cpp</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kindref="member">setReal</ref>(1);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kindref="member">setImaginary</ref>(1);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><ref refid="classComplex__Cpp_1abae915753734a694363f833b4b4f4108" kindref="member">Complex_Cpp::Complex_Cpp</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>real,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>imaginary)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kindref="member">setReal</ref>(real);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kindref="member">setImaginary</ref>(imaginary);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kindref="member">Complex_Cpp::getReal</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>real;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kindref="member">Complex_Cpp::getImaginary</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>imaginary;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kindref="member">Complex_Cpp::setReal</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newReal)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>real<sp/>=<sp/>newReal;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kindref="member">Complex_Cpp::setImaginary</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>newImaginary)<sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>imaginary<sp/>=<sp/>newImaginary;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1a1aaf531ea95a6a0419d6612bf61f899e" kindref="member">Complex_Cpp::equal</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/>&amp;c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>real<sp/>==<sp/>c.<ref refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kindref="member">getReal</ref>()<sp/>&amp;&amp;<sp/>imaginary<sp/>==<sp/>c.<ref refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kindref="member">getImaginary</ref>();</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/><ref refid="classComplex__Cpp_1a15daee912a0535674e5a4cd2a64dcdea" kindref="member">Complex_Cpp::add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/>&amp;c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/>a;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>a.<ref refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kindref="member">setReal</ref>(real<sp/>+<sp/>c.<ref refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kindref="member">getReal</ref>());</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>a.<ref refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kindref="member">setImaginary</ref>(imaginary<sp/>+<sp/>c.<ref refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kindref="member">getImaginary</ref>());</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>a;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/><ref refid="classComplex__Cpp_1a553415395ee6679eae6965e04a15aff2" kindref="member">Complex_Cpp::multiply</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/>&amp;c)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref><sp/>m;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>m.<ref refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kindref="member">setReal</ref>(c.<ref refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kindref="member">getReal</ref>()*real<sp/>-<sp/>c.<ref refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kindref="member">getImaginary</ref>()*imaginary);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>m.<ref refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kindref="member">setImaginary</ref>(real*c.<ref refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kindref="member">getImaginary</ref>()<sp/>+<sp/>imaginary*c.<ref refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kindref="member">getReal</ref>());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>m;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classComplex__Cpp_1a52b2903df2b313e530c5d748e9e56066" kindref="member">Complex_Cpp::output</ref>(std::ostream<sp/>&amp;out)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>out<sp/>&lt;&lt;<sp/>real<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>+<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>imaginary<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;i&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp"/>
+  </compounddef>
+</doxygen>

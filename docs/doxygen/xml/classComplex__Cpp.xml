@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classComplex__Cpp" kind="class" language="C++" prot="public">
+    <compoundname>Complex_Cpp</compoundname>
+    <includes refid="ComplexCpp_8h" local="no">ComplexCpp.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classComplex__Cpp_1a0c398bdbf6ecab57d24486ed9d06c7cf" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Complex_Cpp::real</definition>
+        <argsstring></argsstring>
+        <name>real</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="15" column="10" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classComplex__Cpp_1a01c02e9b7ec12a51cc87a5a38e60c857" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Complex_Cpp::imaginary</definition>
+        <argsstring></argsstring>
+        <name>imaginary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="16" column="10" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classComplex__Cpp_1abae915753734a694363f833b4b4f4108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Complex_Cpp::Complex_Cpp</definition>
+        <argsstring>()</argsstring>
+        <name>Complex_Cpp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Complex number default constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="21" column="3" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="3" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a36e0e6937dcc7ee4c5be05a32128a8f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Complex_Cpp::Complex_Cpp</definition>
+        <argsstring>(double real, double imaginary)</argsstring>
+        <name>Complex_Cpp</name>
+        <param>
+          <type>double</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>imaginary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Complex number parameterized constructor </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="25" column="3" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Complex_Cpp::getReal</definition>
+        <argsstring>() const</argsstring>
+        <name>getReal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the real component of the complex number </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="29" column="10" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Complex_Cpp::getImaginary</definition>
+        <argsstring>() const</argsstring>
+        <name>getImaginary</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the imaginary component of the complex number </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="33" column="10" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Complex_Cpp::setReal</definition>
+        <argsstring>(double newReal)</argsstring>
+        <name>setReal</name>
+        <param>
+          <type>double</type>
+          <declname>newReal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the real component of the complex number </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="37" column="8" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="21" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Complex_Cpp::setImaginary</definition>
+        <argsstring>(double newImaginary)</argsstring>
+        <name>setImaginary</name>
+        <param>
+          <type>double</type>
+          <declname>newImaginary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sets the imaginary component of the complex number </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="41" column="8" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="25" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a1aaf531ea95a6a0419d6612bf61f899e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Complex_Cpp::equal</definition>
+        <argsstring>(const Complex_Cpp &amp;c) const</argsstring>
+        <name>equal</name>
+        <param>
+          <type>const <ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns if the current complex number equals the Complex nmber c </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="45" column="8" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="29" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a15daee912a0535674e5a4cd2a64dcdea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref></type>
+        <definition>Complex_Cpp Complex_Cpp::add</definition>
+        <argsstring>(const Complex_Cpp &amp;c) const</argsstring>
+        <name>add</name>
+        <param>
+          <type>const <ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the sum of the current complex number and the Complex nmber c </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="49" column="15" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="33" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a553415395ee6679eae6965e04a15aff2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref></type>
+        <definition>Complex_Cpp Complex_Cpp::multiply</definition>
+        <argsstring>(const Complex_Cpp &amp;c) const</argsstring>
+        <name>multiply</name>
+        <param>
+          <type>const <ref refid="classComplex__Cpp" kindref="compound">Complex_Cpp</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the product of the current complex number and the Complex nmber c </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="53" column="15" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classComplex__Cpp_1a52b2903df2b313e530c5d748e9e56066" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Complex_Cpp::output</definition>
+        <argsstring>(std::ostream &amp;out) const</argsstring>
+        <name>output</name>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>out</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns the complex number in the form of a + bi </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="57" column="8" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.cpp" bodystart="47" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Complex number class (C++) </para>
+    </detaileddescription>
+    <location file="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" line="13" column="18" bodyfile="/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src/ComplexCpp.h" bodystart="13" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classComplex__Cpp_1a15daee912a0535674e5a4cd2a64dcdea" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>add</name></member>
+      <member refid="classComplex__Cpp_1abae915753734a694363f833b4b4f4108" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>Complex_Cpp</name></member>
+      <member refid="classComplex__Cpp_1a36e0e6937dcc7ee4c5be05a32128a8f5" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>Complex_Cpp</name></member>
+      <member refid="classComplex__Cpp_1a1aaf531ea95a6a0419d6612bf61f899e" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>equal</name></member>
+      <member refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>getImaginary</name></member>
+      <member refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>getReal</name></member>
+      <member refid="classComplex__Cpp_1a01c02e9b7ec12a51cc87a5a38e60c857" prot="private" virt="non-virtual"><scope>Complex_Cpp</scope><name>imaginary</name></member>
+      <member refid="classComplex__Cpp_1a553415395ee6679eae6965e04a15aff2" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>multiply</name></member>
+      <member refid="classComplex__Cpp_1a52b2903df2b313e530c5d748e9e56066" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>output</name></member>
+      <member refid="classComplex__Cpp_1a0c398bdbf6ecab57d24486ed9d06c7cf" prot="private" virt="non-virtual"><scope>Complex_Cpp</scope><name>real</name></member>
+      <member refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>setImaginary</name></member>
+      <member refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" prot="public" virt="non-virtual"><scope>Complex_Cpp</scope><name>setReal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

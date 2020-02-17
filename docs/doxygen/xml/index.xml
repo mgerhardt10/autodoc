@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.18">
+  <compound refid="classComplex__Cpp" kind="class"><name>Complex_Cpp</name>
+    <member refid="classComplex__Cpp_1a0c398bdbf6ecab57d24486ed9d06c7cf" kind="variable"><name>real</name></member>
+    <member refid="classComplex__Cpp_1a01c02e9b7ec12a51cc87a5a38e60c857" kind="variable"><name>imaginary</name></member>
+    <member refid="classComplex__Cpp_1abae915753734a694363f833b4b4f4108" kind="function"><name>Complex_Cpp</name></member>
+    <member refid="classComplex__Cpp_1a36e0e6937dcc7ee4c5be05a32128a8f5" kind="function"><name>Complex_Cpp</name></member>
+    <member refid="classComplex__Cpp_1a901f64665cfa36538d2298832ce8f194" kind="function"><name>getReal</name></member>
+    <member refid="classComplex__Cpp_1ace9eaa01d3b625363aad28db8f9577e7" kind="function"><name>getImaginary</name></member>
+    <member refid="classComplex__Cpp_1a68204641350bd4952a5f497d4994dc8e" kind="function"><name>setReal</name></member>
+    <member refid="classComplex__Cpp_1ae0db90c465a5e115e44954ccde738ba4" kind="function"><name>setImaginary</name></member>
+    <member refid="classComplex__Cpp_1a1aaf531ea95a6a0419d6612bf61f899e" kind="function"><name>equal</name></member>
+    <member refid="classComplex__Cpp_1a15daee912a0535674e5a4cd2a64dcdea" kind="function"><name>add</name></member>
+    <member refid="classComplex__Cpp_1a553415395ee6679eae6965e04a15aff2" kind="function"><name>multiply</name></member>
+    <member refid="classComplex__Cpp_1a52b2903df2b313e530c5d748e9e56066" kind="function"><name>output</name></member>
+  </compound>
+  <compound refid="CMakeLists_8txt" kind="file"><name>CMakeLists.txt</name>
+  </compound>
+  <compound refid="ComplexCpp_8cpp" kind="file"><name>ComplexCpp.cpp</name>
+  </compound>
+  <compound refid="ComplexCpp_8h" kind="file"><name>ComplexCpp.h</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/mitch_gerhardt/Documents/AutoDoc_Sphinx/src</name>
+  </compound>
+</doxygenindex>

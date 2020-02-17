@@ -1,0 +1,2 @@
+/usr/bin/ar qc libComplexCpp.a  CMakeFiles/ComplexCpp.dir/ComplexCpp.cpp.o
+/usr/bin/ranlib libComplexCpp.a
