@@ -29,17 +29,6 @@ set(SPHINX_SOURCE ${CMAKE_CURRENT_SOURCE_DIR})
 set(SPHINX_BUILD ${CMAKE_CURRENT_BINARY_DIR}/sphinx)
 set(SPHINX_INDEX_FILE ${SPHINX_BUILD}/index.html)
 
-#[[
-
-add_custom_target(Sphinx ALL
-                  COMMAND
-                  ${SPHINX_EXECUTABLE} -b html
-                  ${SPHINX_SOURCE} ${SPHINX_BUILD}
-                  WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-                  COMMENT "Generating documentation with Sphinx")
-
-]]
-
 # Only regenerate Sphinx when:
 # - Doxygen has rerun
 # - Our doc files have been updated
